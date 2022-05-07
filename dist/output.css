@@ -769,4 +769,13 @@ a.text-link:hover {
   .md\:rounded-3xl {
     border-radius: 1.5rem;
   }
+
+  .md\:border {
+    border-width: 1px;
+  }
+
+  .md\:border-slate-600 {
+    --tw-border-opacity: 1;
+    border-color: rgb(71 85 105 / var(--tw-border-opacity));
+  }
 }
