@@ -22,3 +22,15 @@ p {
 a.text-link {
   @apply underline underline-offset-1 decoration-wavy decoration-sky-500 hover:underline-offset-2
 }
+
+blockquote {
+  @apply mb-4 w-full
+}
+
+.testimonial-panel {
+  @apply md:h-full w-full flex md:flex-col md:gap-x-4 justify-start md:items-center items-start rounded-lg bg-slate-800 p-4
+}
+
+.testimonial-panel img {
+  @apply md:h-24 md:w-24 h-16 w-16 rounded-full bg-cover md:mb-6 mr-4 md:-mt-16 ring-4 ring-slate-800
+}
