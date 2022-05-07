@@ -8,11 +8,11 @@ html {
 }
 
 h1 {
-  @apply w-full font-black text-6xl mt-24 mb-8
+  @apply w-full font-black text-5xl md:text-6xl mt-24 mb-8
 }
 
 h2 {
-  @apply text-white/70 text-2xl font-thin
+  @apply text-white/70 text-xl md:text-2xl font-thin
 }
 
 p {
